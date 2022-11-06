@@ -19,5 +19,5 @@ class Inventory:
                 list.append(row)
         if type == 'simples':
             return SimpleReport.generate(list)
-        elif type == 'completo':
+        else:
             return CompleteReport.generate(list)
